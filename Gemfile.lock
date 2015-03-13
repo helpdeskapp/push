@@ -25,13 +25,8 @@ GEM
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.3.1)
     http_parser.rb (0.6.0)
-    mina (0.3.0)
-      open4
-      rake
     multi_json (1.8.4)
-    open4 (1.3.3)
     rack (1.5.2)
-    rake (10.3.2)
     thin (1.5.0)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
@@ -43,5 +38,4 @@ PLATFORMS
 
 DEPENDENCIES
   faye
-  mina
   thin
