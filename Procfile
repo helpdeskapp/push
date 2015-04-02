@@ -1,1 +1,1 @@
-web: SECRET=ENV['secret'] bin/rackup -E production -s thin
+web: bin/rackup -E production -s thin
